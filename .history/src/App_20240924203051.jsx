@@ -1,10 +1,11 @@
-import React from 'react';
 import { artists } from './best-selling-music-artists';
-import Artist from './components/artist.jsx';
+import Artist from './components/artist';
 
 
 
 function App() {
+
+  
 
   const artistList = artists.map(artists => <Artist key={artists.name} artists={artists} />);
 
