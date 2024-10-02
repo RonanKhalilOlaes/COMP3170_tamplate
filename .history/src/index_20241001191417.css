@@ -9,14 +9,3 @@
       overflow: hidden;
       aspect-ratio: auto;
     }
-    img {
-        width: 100%;
-      }
-      
-      .add-to-cart {
-        border: 1px solid #141414;
-        text-transform: uppercase;
-        margin-bottom: 1em;
-      }
-    
-    }

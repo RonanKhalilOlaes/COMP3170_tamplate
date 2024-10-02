@@ -5,7 +5,7 @@ import Artist from './components/artist.jsx';
 
 function App() {
 
-  const artistList = artists.map(artist => <Artist key={artist.name} artist={artist} />);
+  const artistList = artists.map(artists => <Artist key={artists.name} artists={artists} />);
 
   return (
     <div className="app">
